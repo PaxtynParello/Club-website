@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Baking Club</h1>
+    <p><b><i>The only baking club at Tech!</i></b></p>
+    <p>Activities include</p>
+    <ul>
+        <li>Club meetings</li>
+        <li>Cooking competitions</li>
+        <li>Cooking classes</li>
+        <li>Fundraising events</li>
+    </ul>
+<p>We meet every Thursday at 3:00 PM in Room 12!</p>
+<br>
+<img src="baking.jpg" alt="Baking Club" width="200" height="250">
+<h2>SIGN UP:</h2>
+<form method="post" action="submitedform.html">
+    <label for="Username">Email:</label>
+    <br>
+    <input type="email" id="Username" name="Usernamesign" placeholder="example@host.com">
+    <br>
+    <br>
+    <label for="Password">Password:</label>
+    <br>
+    <input type="password" id="Password" name="Passwordsign" placeholder="Enter your password here">
+    <br>
+    <br>
+    <label for="Experience">How Often do you bake:</label>
+    <br>
+    <select name="Experience">
+        <option value ="Pro">I frequently bake</option>
+        <option value ="beginner"> I haven't baked before</option>
+        <option value="moderate">I've baked a little</option>
+
+    </select>
+    <br>
+    <br>
+    <label for="textareaparagraph">Comments:</label>
+    <br>
+    <textarea name="WhyJoin" id="textareaparagraph" placeholder="Why you want to join the baking club..." cols="40" rows="5"></textarea>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
